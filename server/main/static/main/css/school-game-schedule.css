@@ -106,4 +106,5 @@
     width: 90%;
     height: 60vh;
     background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/cc1.jpg);
+    background-size: cover;
   }
