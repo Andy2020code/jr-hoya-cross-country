@@ -6,3 +6,6 @@ def index(request):
 
 def about_page(request):
     return render (request, 'main/school-about-page.html')
+
+def schedule_page(request):
+    return render (request, 'main/school-game-schedule.html')
