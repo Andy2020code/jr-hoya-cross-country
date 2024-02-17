@@ -24,8 +24,8 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="{% url "home_page" %}">Home</a></li>
+                    <li><a href="{% url "about_page" %}">About</a></li>
                     <li><a href="#">Schedule</a></li>
                     <li><a href="#">Coach Bios</a></li>
                     <li><a href="#">Coach Corner</a></li>
@@ -114,10 +114,14 @@
     </div>
 
     <div class="div-04-layout">
+
+        <h1 class="div-04-title-01">Last Season<br>Winners</h1>
         
         <div class="div-04-body">
 
-            <img src="../static/main/img/slider-01-img/1.jpg" alt="">
+            <div class="image-div-04 img-row-01"></div>
+            <div class="image-div-04 img-row-02"></div>
+            <div class="image-div-04 img-row-03"></div>
 
         </div>
 

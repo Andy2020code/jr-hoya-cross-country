@@ -347,21 +347,63 @@ nav .fa{
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
   }
 
+  .div-04-title-01{
+    font-size: 46px;
+    text-align: center;
+    color: #4ABA16;
+    font-family: 'octin-college', sans-serif;
+    margin: 20px 0px;
+  }
+
   .div-04-body{
-    width: 90%;
-    height: 500px;
+    width: 70%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f5f5f5;
     border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .image-div-04{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 20px 10px;
+  }
+
+  .img-row-01{
+    background: url(../img/slider-01-img/1.jpg);
+    background-size: cover;
+    background-position: -250px 0px;
+  }
+
+  .img-row-02{
+    background: url(../img/slider-01-img/4.jpg);
+    background-size: cover;
+    background-position: -200px 0px;
+  }
+
+  .img-row-03{
+    background: url(../img/slider-01-img/4.jpg);
+    background-size: cover;
+    background-position: -200px 0px;
   }
 
   .div-04-body img{
-    width: 350px;
+    width: 450px;
+  }
+
+  @media(max-width: 500px){
+    .div-04-body{
+      width: 90%;
+      flex-direction: column;
+    }
   }
