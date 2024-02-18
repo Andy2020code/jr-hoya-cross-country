@@ -105,7 +105,7 @@
   .div-01-body{
     width: 90%;
     height: 60vh;
-    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/Jr\ Hoya\ XC\ State-\ team\ girls-1.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/schedule-page-img/bg.jpg);
     background-size: cover;
     background-position: 0px -200px;
     border-radius: 10px;
@@ -125,3 +125,219 @@
     font-weight: 700;
     text-align: center;
   }
+
+  .schedule-layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .schedule-body{
+    width: 90%;
+    height: auto;
+    background-color: #050643;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .schedule-title-div{
+    width: 100%;
+    height: auto;
+  }
+
+  .schedule-title-div h1{
+    color: #f5f5f5;
+    font-size: 36px;
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px 20px;
+  }
+
+  .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+  }
+
+  .card-02{
+    background-color: #07405F;
+  }
+
+  .event-title{
+    width: 50%;
+    height: auto;
+    background-color: #4ABA16;
+  }
+
+  .event-title h1{
+    font-size: 26px;
+    font-family: "rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f5f5f5;
+    margin: 10px 20px;
+    text-align: left;
+
+  }
+
+  .card-03{
+    background-color: #07405F;
+  }
+
+  .event-item{
+    width: 50%;
+    height: auto;
+  }
+
+  .event-item h1{
+    font-size: 18px;
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f5f5f5;
+    margin: 10px 20px;
+    text-align: left;
+  }
+
+  .event-item p{
+    font-size: 18px;
+    font-family: "rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f5f5f5;
+    margin: 10px 20px;
+    text-align: left;
+  }
+
+  .event-location{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .event-location h1{
+    font-size: 18px;
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f5f5f5;
+    margin: 10px 20px;
+    text-align: left;
+  }
+
+  .event-location button{
+    width: 150px;
+    height: 40px;
+    background-color: #4ABA16;
+    border: none;
+    border-radius: 5px;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 10px 20px;
+    text-align: center;
+    transition: .3s ease-in-out;
+  }
+
+    .event-location button:hover{
+        cursor: pointer;
+        background-color: #f5f5f5;
+        border: 1px solid #4ABA16;
+        color: #050643;
+    }
+
+    .card-04{
+        background-color: #07405F;
+    }
+
+    .card-05{
+        background-color: #07405F;
+    }
+
+    .card-06{
+        background-color: #07405F;
+    }
+
+    .card-07{
+        background-color: #07405F;
+    }
+
+    .card-08{
+        background-color: #07405F;
+    }
+
+    .card-09{
+        background-color: #07405F;
+    }
+
+    .card-10{
+        background-color: #07405F;
+    }
+
+    .card-11{
+        background-color: #07405F;
+    }
+
+    .card-12{
+        background-color: #07405F;
+    }
+
+    .card-13{
+        background-color: #07405F;
+    }
+
+    .card-14{
+        background-color: #07405F;
+    }
+
+    .card-15{
+        background-color: #07405F;
+    }
+
+    .next-page{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .next-page button{
+        width: 150px;
+        height: 40px;
+        background-color: #4ABA16;
+        border: none;
+        border-radius: 5px;
+        color: #f5f5f5;
+        font-size: 18px;
+        font-family: "octin-college", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin: 10px 20px;
+        text-align: center;
+        transition: .3s ease-in-out;
+    }
+
+    .next-page button:hover{
+        cursor: pointer;
+        background-color: #f5f5f5;
+        border: 1px solid #4ABA16;
+        color: #050643;
+    }

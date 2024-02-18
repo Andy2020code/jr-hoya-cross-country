@@ -125,6 +125,18 @@
         text-align: center;
     }
 
+    @media (max-width: 500px){
+        .div-01-body{
+            background-position: 0px 0px;
+        }
+
+        .about-title{
+            width: 80%;
+            font-size: 36px;
+        }
+
+    }
+
     .div-02-layout{
         width: 100%;
         height: auto;
