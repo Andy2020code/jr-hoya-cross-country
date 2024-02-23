@@ -126,6 +126,13 @@
     text-align: center;
   }
 
+  @media screen and (max-width: 500px){
+    .div-01-body{
+      background-position: 0px 0px;
+    }
+    
+  }
+
   .schedule-layout{
     width: 100%;
     height: auto;
