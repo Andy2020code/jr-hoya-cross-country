@@ -24,9 +24,9 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="{% url "home_page" %}">Home</a></li>
-                    <li><a href="{% url "about_page" %}">About</a></li>
-                    <li><a href="{% url "schedule_page" %}">Schedule</a></li>
+                    <li><a href="{% url "main:home_page" %}">Home</a></li>
+                    <li><a href="{% url "main:about_page" %}">About</a></li>
+                    <li><a href="{% url "main:schedule_page" %}">Schedule</a></li>
                     <li><a href="#">Coach Bios</a></li>
                     <li><a href="#">Coach Corner</a></li>
                     <li><a href="#">Results</a></li>
@@ -199,7 +199,7 @@
     </div>
 
     <div class="prev-next-page">
-        <a href="{% url 'march_schedule' %}"><button>Prev Month</button></a>
+        <a href="{% url 'main:march_schedule' %}"><button>Prev Month</button></a>
     </div>
 
 </body>
