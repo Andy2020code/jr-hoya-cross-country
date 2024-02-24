@@ -18,3 +18,6 @@ def april_schedule_page(request):
 
 def coming_soon(request):
     return render (request, 'main/coming-soon.html')
+
+def coach_bios(request):
+    return render (request, 'main/coach_bios.html')
