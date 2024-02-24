@@ -10,5 +10,5 @@ urlpatterns = [
     path('march-schedule/', views.march_schedule_page, name='march_schedule'),
     path('april-schedule/', views.april_schedule_page, name='april_schedule'),
     path('coming-soon/', views.coming_soon, name='coming_soon'),
-    path('coach-bios/', views.coming_soon, name='coach_bios'),
+    path('coach-bios/', views.coach_bios, name='coach_bios'),
 ]

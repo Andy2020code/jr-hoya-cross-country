@@ -239,7 +239,7 @@ nav .fa{
 }
 
 .row{
-    width: 1024px;
+    max-width: 1024px;
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -263,6 +263,12 @@ nav .fa{
     font-weight: 400;
     font-style: normal;
     color: #050643;
+}
+
+@media (max-width: 1400px){
+  .row{
+    width: 800px;
+}
 }
 
 @media (max-width: 500px){
@@ -399,6 +405,12 @@ nav .fa{
 
   .div-04-body img{
     width: 450px;
+  }
+
+  @media(max-width: 1400px){
+    .div-04-body{
+      width: 90%;
+    }
   }
 
   @media(max-width: 500px){
