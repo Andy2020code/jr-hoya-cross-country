@@ -11,4 +11,5 @@ urlpatterns = [
     path('april-schedule/', views.april_schedule_page, name='april_schedule'),
     path('coming-soon/', views.coming_soon, name='coming_soon'),
     path('coach-bios/', views.coach_bios, name='coach_bios'),
+    path('coaches-corner/', views.coaches_corner, name='coaches_corner'),
 ]

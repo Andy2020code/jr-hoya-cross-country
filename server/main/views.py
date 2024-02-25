@@ -21,3 +21,6 @@ def coming_soon(request):
 
 def coach_bios(request):
     return render (request, 'main/coach_bios.html')
+
+def coaches_corner(request):
+    return render (request, 'main/coaches-corner.html')
