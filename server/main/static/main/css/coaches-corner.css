@@ -95,7 +95,7 @@
 .div-01-layout{
     width: 100%;
     height: 50vh;
-    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/coaches-bio-img/coaches-bg.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/coaches-corner-img/bg-01.jpg);
     background-size: cover;
     background-position: 0px -100px;
     display: flex;
@@ -140,6 +140,25 @@
     font-size: 36px;
     color: #f5f5f5;
     margin: 20px 0px;
+}
+
+@media (max-width: 500px){
+
+    .div-01-layout{
+        background-position: center;
+    }
+
+    .left-div-01{
+        display: none;
+    }
+
+    .right-div-01{
+        width: 100%;
+    }
+
+    .right-div-01 h1{
+        font-size: 60px;
+    }
 }
 
 .div-02-layout{
@@ -188,6 +207,14 @@
     margin: 20px 0px;
 }
 
+.div-02-middle span{
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #4ABA16;
+}
+
 .div-02-middle h1{
     font-family: "octin-college", sans-serif;
     font-weight: 700;
@@ -196,8 +223,8 @@
 }
 
 .div-02-middle p{
-    font-family: "sofia-pro-soft", sans-serif;
-    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
     font-size: 18px;
     margin: 10px 0px;
 }
@@ -216,8 +243,8 @@
 }
 
 .div-02-bottom p{
-    font-family: "sofia-pro-soft", sans-serif;
-    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
     font-size: 18px;
     margin: 10px 0px;
 }
@@ -234,6 +261,7 @@
 .div-03-body{
     max-width: 900px;
     height: 100%;
+    overflow-x: scroll;
 }
 
 .div-03-intro{
@@ -316,8 +344,8 @@
 
 .div-04-body p{
     width: 90%;
-    font-family: "sofia-pro-soft", sans-serif;
-    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
     font-size: 20px;
     color: #050643;
     margin: 20px 0px;
@@ -335,6 +363,7 @@
 .div-05-body{
     width: 900px;
     height: 100%;
+    overflow-x: scroll;
 }
 
 .div-05-intro{
@@ -418,8 +447,8 @@
 
 .div-06-body p{
     width: 90%;
-    font-family: "sofia-pro-soft", sans-serif;
-    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
     text-align: left;
     font-size: 18px;
     margin: 20px 0px;

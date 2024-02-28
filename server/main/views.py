@@ -24,3 +24,6 @@ def coach_bios(request):
 
 def coaches_corner(request):
     return render (request, 'main/coaches-corner.html')
+
+def results(request):
+    return render (request, 'main/results.html')

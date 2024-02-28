@@ -240,6 +240,7 @@ nav .fa{
 
 .row{
     max-width: 1024px;
+    width: 900px;
     height: auto;
     display: flex;
     justify-content: flex-start;
