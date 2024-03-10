@@ -95,7 +95,7 @@
 .div-01-layout{
     width: 100%;
     height: 50vh;
-    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/coaches-bio-img/coaches-bg.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 128, 0.1), rgba(0, 0, 128, 0.5) ), url(../img/results-page/bg-01.jpg);
     background-size: cover;
     background-position: 0px -100px;
     display: flex;
@@ -146,7 +146,7 @@
     .div-01-layout{
         width: 100%;
         height: 50vh;
-        background: url(../img/coaches-bio-img/coaches-bg.jpg);
+        background: url(../img/results-page/bg-01.jpg);
         background-size: cover;
         background-position: -50px -0px;
         display: flex;
@@ -178,3 +178,39 @@
     }
 }
 
+.div-02-layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.div-02-body{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.results_big{
+    display: flex;
+}
+
+.results_small{
+    display: none;
+}
+
+@media(max-width: 500px){
+    .results_big{
+        display: none;
+    }
+
+    .results_small{
+        display: flex;
+    }
+}
